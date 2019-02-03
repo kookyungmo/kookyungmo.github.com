@@ -1,18 +1,17 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+remote_theme : joshgerdes/jekyll-uno
+title: Kyungmo Koo
+description : ""
+url : "https://kookyungmo.github.io"
+baseurl: ""
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name			: "Kyungmo Koo"
+  email			: kookyungmo@gmail.com
+  twitter_username	: martinblog
+  facebook_username	: martinblog
+  github_username	: kookyungmo
+  linkedin_username	: kyungmokoo
 
 defaults:
   -
@@ -23,11 +22,11 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
+destination : _site
+paginate    : 10
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
 sass:
     sass_dir: _sass
@@ -41,3 +40,5 @@ kramdown:
 
 plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
+
